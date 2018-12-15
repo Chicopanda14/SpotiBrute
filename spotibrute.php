@@ -59,4 +59,4 @@ if($clave=="renueva:"||$clave=="Pais:"){
 }
         fclose($oa);
  ?>
-$ 1
+
