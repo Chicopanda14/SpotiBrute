@@ -104,6 +104,9 @@ class spotify
 		if (strpos($result, "Get Premium") !== false) {
 	    	$output_check['subscription'] = "FREE";
 		}	
+		elseif(strpos($result, "Premium Family") !== false) {
+		    $output_check['subscription'] = "Family";
+		}
 		else {
 	     	$output_check['subscription'] = "PREMIUM";
 		}
