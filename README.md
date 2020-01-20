@@ -8,6 +8,8 @@ Hola, después de casi un año sin actualización, llegó la nueva versión de s
 * Se cambió la api
 * Solución de algunos errores (no todos)
 * Ahora sólo da premium, familiar o duo(no free).
+* Se puede guardar archivos
+* Te dirá el país y subscripción
 
 ## Descripción de cambios
 La anterior api fue totalmente quemada, decidimos cambiar la api, una nueva y funcional. Sin embargo, estoy trabajando para que diga el país y cuándo termina la subscripción. El funcionamiento es como antes, pocas cosas cambiaron. 
