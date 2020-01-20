@@ -55,7 +55,7 @@ while ($a = fgetcsv($oa, 1000, ':')) {
     }
     $accounts .= "$a[0]:$a[1]|$subs|$country\n";
 }
-echo $accounts;
+
 if(!empty($accounts)) {
  $save = readline("¿Deseas guardar? Y/n ");
  if(trim($save) == "Y") {
